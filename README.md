@@ -1,89 +1,105 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Recipe page solution
 
-![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### Screenshot
 
-## The challenge
+![](./screenshot.jpg)
 
-Your challenge is to build out this recipe page and get it looking as close to the design as possible.
+### Links
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- Solution URL: [Solution](https://github.com/Dev-Farhan/Recipe-Page)
+- Live Site URL: [Live](https://recipe-page-jet-alpha.vercel.app/)
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## My process
 
-## Where to find everything
+### Built with
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### What I learned
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+1. **HTML Structure and Semantic Elements:**
+   - Gained experience in organizing a webpage using semantic HTML elements such as `<main>`, `<div>`, `<ul>`, and `<ol>`.
+   - Utilized proper nesting and structure to enhance the readability and maintainability of the code.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+2. **CSS Styling and Layout:**
+   - Learned how to style a webpage effectively using CSS, including the use of Flexbox for layout alignment (`flex-direction`, `align-items`, `justify-content`).
+   - Applied padding, margin, and box-shadow to create visually appealing card components.
+   - Gained experience in using custom fonts and Google Fonts for typography.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+3. **Responsive Design:**
+   - Implemented media queries to ensure the recipe page is responsive and looks good on different screen sizes, especially on mobile devices.
+   - Learned how to adjust padding, font sizes, and layout structure to create a seamless user experience across devices.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+4. **Color Theory and Aesthetics:**
+   - Applied a color palette to the webpage, using HSL color values for consistency and to create a cohesive look.
+   - Understood the importance of color contrast and readability, ensuring text is legible against background colors.
 
-## Building your project
+5. **Content Structuring and Typography:**
+   - Practiced creating well-structured content sections for ingredients, instructions, and nutritional information.
+   - Learned to use different font styles and weights to highlight important information and improve readability.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+6. **Table Formatting:**
+   - Gained experience in creating and styling tables to present nutritional information clearly.
+   - Learned to use padding, borders, and text alignment to enhance table readability and aesthetics.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+7. **Attribution and External Links:**
+   - Learned the importance of proper attribution for challenges and external resources.
+   - Used anchor tags to create clickable links that open in new tabs, enhancing the user experience.
+### Continued Development
 
-## Deploying your project
+1. **Advanced CSS Techniques:**
+   - Explore CSS Grid for more complex layouts.
+   - Deepen understanding of CSS animations and transitions to create more engaging user experiences.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+2. **JavaScript Integration:**
+   - Incorporate JavaScript to add interactivity, such as dynamically updating content or creating modal windows for recipes.
+   - Learn and apply AJAX for fetching data from APIs to display more dynamic content.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+3. **Accessibility Improvements:**
+   - Focus on enhancing accessibility features, ensuring that the webpage is navigable and usable for all users, including those using screen readers.
+   - Implement ARIA roles and properties to improve semantic meaning.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+4. **Performance Optimization:**
+   - Optimize images and other assets to improve loading times.
+   - Learn and implement best practices for writing efficient, clean code to enhance website performance.
 
-## Create a custom `README.md`
+5. **Further Responsive Design:**
+   - Explore more responsive design patterns and techniques.
+   - Test and optimize the design for a wider range of devices and screen sizes, including tablets and large desktop screens.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+### Useful Resources
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+- [MDN Web Docs](https://developer.mozilla.org) - This is a comprehensive resource for web development documentation and learning materials. It helped me understand various HTML and CSS concepts.
+- [CSS Tricks](https://css-tricks.com) - This website provided excellent tips and tricks for CSS, including Flexbox and Grid layout techniques.
+- [Google Fonts](https://fonts.google.com) - This resource was invaluable for selecting and integrating custom fonts into the project.
+- [W3Schools](https://www.w3schools.com) - This is a great resource for quick references and tutorials on HTML, CSS, and JavaScript.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## Author
 
-## Submitting your solution
+- Frontend Mentor - [@Dev-Farhan](https://www.frontendmentor.io/profile/Dev-Farhan)
+- Twitter - [@Mohammad Farhan](https://www.linkedin.com/in/mohd-farhan0678/)
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+## Acknowledgments
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+I'd like to thank the Frontend Mentor community for providing feedback and support.
