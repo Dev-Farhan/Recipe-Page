@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+   
+}
+
+.card{
+    background:#ffffff;
+    max-width: 37rem;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+.card-content{
+    padding: 1.3rem 0;
+}
+
+.card-content h1,h2{
+    font-family: 'Young Serif',sans-serif;
+font-weight: 400;
+
+}
+
+.card-content h2{
+color: #8b542e;
+
+}
+.card-content h1{
+    line-height: 2.4rem;
+    /* margin-bottom: 10px; */
+}
+
+p{
+    font-size: small;
+    padding: 1.1rem 0;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.2rem;
+}
+
+.bg-card{
+    background-color:hsl(330, 100%, 98%) ;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-top: 13px;
+} 
+.bg-card h5{
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(332, 51%, 32%) ;
+}
+.bg-card ul {
+    padding-left: 1.3rem;
+    padding-top: .4rem;
+    color: hsl(332, 51%, 32%) ;
+    
+}
+.bg-card li{
+    font-size: small;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6rem;
+
+}
+.bg-card li span{
+    font-weight: bold;
+    padding-left: .5rem;
+}
+
+.ingredient{
+  padding: 1.5rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.ingredient ul {
+    padding-left: 1.3rem;
+    padding-top: .6rem;
+    
+}
+
+.ingredient li{
+    font-size: small;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6rem;
+    padding-left: 1rem;
+}
+.instructions{
+  padding: 1.2rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.instructions ol {
+    padding-left: 1.3rem;
+    padding-top: .6rem;
+    
+}
+
+.instructions li{
+    font-size: small;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.4rem;
+    padding-left: 1rem;
+}
+
+.instructions li span{
+    font-weight: bold;
+}
+
+.nutrition{
+    padding: 1.8rem 0;
+  }
+
+.nutrition h2 {
+    /* margin-bottom: 10px; */
+    font-size: 24px;
+}
+.nutrition p {
+    color: #666;
+}
+.nutrition table {
+    width: 100%;
+    font-size: small;
+}
+.nutrition table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.nutrition table td:first-child{
+    color: #666;
+padding-left: 2rem;
+}
+.nutrition table td:last-child {
+    padding-right: 4rem;
+    color: #8b542e;
+font-weight: bold;
+    text-align: center;
+}
+.nutrition table tr:last-child td {
+    border-bottom: none;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 1rem;
+        border-radius: 0px ;
+        box-shadow: none;
+    }
+    .card > *:not(img) {
+        padding: 1rem; 
+    }
+    .card img{
+        border-radius: 0px ;
+    width: 100%;
+    padding: 0;
+}
+    .bg-card {
+        margin-top: 10px;
+    }
+
+    .nutrition table td:first-child {
+        padding-left: 1rem;
+    }
+
+    .nutrition table td:last-child {
+        padding-right: 1rem;
+    }}
+
